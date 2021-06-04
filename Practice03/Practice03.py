@@ -39,3 +39,12 @@ message = "success" if score >= 60 else "failure"
 
 
 ####### Practice03-2 (while문)
+#while 조건문:    #참인 동안에 while 문 아래의 문장이 반복해서 수행된다.
+#    수행할 문장
+#while 문 나갈때 -> break
+#while 문 맨 처음으로 돌아가기 -> continue
+#무한루프 while True: -> ctrl + c 누르면 빠져나감
+
+
+
+####### Practice03-3 (for문)
