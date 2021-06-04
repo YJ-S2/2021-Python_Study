@@ -52,6 +52,9 @@ message = "success" if score >= 60 else "failure"
 #for 변수 in 리스트(또는 튜플, 문자열):
 #   수행할 문장
 
+
+
+
 #for 문과 continue 문 -> for 문의 처음으로 돌아간다.
 #for 문과 range 함수 -> range(10) => 0부터 10미만의 숫자를 포함하는 range객체
 #range(시작숫자, 끝숫자)
