@@ -13,3 +13,29 @@
 #      x and y -> x와 y모두 참이어야 참이다
 #        not x -> x가 거짓이면 참이다
 
+#x in s , x not in s   . . .  in ~안에
+#x in 리스트, 튜플, 문자열
+#x not in 리스트, 튜플, 문자열
+print('a' in ('a', 'p', 'l'))
+print('e' not in ('a', 'p', 'l', 'e'))
+
+pocket = ['card','money', 'phone', 'lipstick']
+if 'card' in pocket:
+    print("버스를 타고 가라")
+else:
+    print("걸어가라")
+
+#다양한 조건 판단 elif , else if 같은 느낌인듯.
+
+#조건부 표현식
+score = 70
+if score >= 60:
+    message = "success"
+else:
+    message = "failure"
+
+message = "success" if score >= 60 else "failure"
+#조건문이 참인경우 if 조건문 else 조건문이 거짓인 경우 (가독성)
+
+
+####### Practice03-2 (while문)
