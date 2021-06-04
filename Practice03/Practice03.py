@@ -48,3 +48,16 @@ message = "success" if score >= 60 else "failure"
 
 
 ####### Practice03-3 (for문)
+#for 문의 기본 구조
+#for 변수 in 리스트(또는 튜플, 문자열):
+#   수행할 문장
+
+#for 문과 continue 문 -> for 문의 처음으로 돌아간다.
+#for 문과 range 함수 -> range(10) => 0부터 10미만의 숫자를 포함하는 range객체
+#range(시작숫자, 끝숫자)
+
+#구구단 print(i * j, end="") -> end 넣은 이유 : 다음 줄로 넘기지 않고 그 줄에 계속 출력하기 위해
+
+#리스트 내포 사용
+#리스트 안에 for문 포함 -> 리스트 내포
+#[표현식 for 항목 in 반복 가능 객체 if 조건] //for문 2개 이상도 사용가능
