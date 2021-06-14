@@ -175,4 +175,22 @@ print(data)
 f.close()
 
 #파일에 새로운 내용 추가하기 -> 'a'모드
+f = open("C:/Users/Admin/Desktop/Python_Study/새파일.txt",'a')
+for i in range (11, 20):
+    data = "%d 번째 줄입니다.\n" %i
+    f.write(data)
+f.close()
 
+
+f = open("C:/Users/Admin/Desktop/Python_Study/새파일.txt",'r')
+check = f.read()
+
+print(check)
+f.close()
+
+#with 문과 함께 사용하기
+#f.close() 항상 파일을 열고 닫아야 한다.
+#자동으로 처리 -> with 문으로 처리
+with open("C:/Users/Admin/Desktop/Python_Study/새파일.txt", 'r') as f:
+    print(f.read())
+    
